@@ -1,0 +1,18 @@
+.navbar li{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.navbar{
+    margin-bottom: 4rem;
+}
+.navbar a:hover{
+    color: grey;
+}
+
+
+@media (max-width:992px) {
+ .main_header_right{
+    margin-top: 3rem;
+ }
+    
+}

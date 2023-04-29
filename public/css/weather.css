@@ -1,0 +1,105 @@
+ /* .main_content{
+    margin: auto;
+    width: 20rem;
+    min-width: 20rem;
+    height: 5rem;
+} */
+.navbar li{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.navbar{
+    margin-bottom: 4rem;
+}
+.navbar a:hover{
+    color: grey;
+}
+.main_header{
+    margin-top: -5rem;
+}
+
+
+@media (max-width:992px) {
+ .main_header_right{
+    margin-top: 3rem;
+ }
+    
+}
+.tempinformation{
+    width: 40rem;
+    margin: auto;
+    min-width: 20rem;
+    display: block;
+    background-color: darkgray;
+    border-radius: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20rem;
+}
+.top_layers{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+    border-radius: 1rem;
+    font-size: larger;
+}
+.top_layers p{
+    color: aliceblue;
+    font-weight: 300;
+    padding: 1rem ;
+}
+.main_layer{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.main_layer #city_name{
+font-size: 3rem;
+}
+
+.sup{
+    font-size: 6rem;
+    margin-top: -2rem;
+}
+/* .data_hide{
+    visibility: hidden;
+    transition: all 5s linear;
+} */
+.main_layer .middle_layer p{
+    font-size: 7rem;
+    font-weight: 900;
+    
+}
+
+.temp_form{
+    width: 60%;
+    position: relative;
+    margin: 5rem auto;
+}
+.temp_form input[type="text"]{
+    width: 100%;
+    padding: 1rem 5rem 1rem 1rem;
+    background: rgb(64, 62, 70);
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 3rem;
+
+}
+::placeholder{
+    color: rgb(171, 179, 176);
+}
+.temp_form input[type="submit"]{
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    bottom: 5px;
+    border-radius: 2rem;
+}
+.temp_form input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
